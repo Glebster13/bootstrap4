@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!--fancybox (галерея)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light">
+  <a href="#" data-value="menu" class="navbar-brand">Glebster</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <!---->
+   <div class="collapse navbar-collapse" id="menuCollapse">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" data-value="about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-value="portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-value="blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-value="team" class="nav-link">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-value="contact-form" class="nav-link">Get in Touch</a>
+          </li>
+       </ul>
+   </div>
+      <form action="/action_page.php" class="form-inline" id="btnSearch">
+        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+        <button class="btn" type="submit">Search</button>
+      </form>  
+</nav>
+
+<header class="header">
+  <div class="overlay"></div>
+
+    <div class="description text-center">
+        <h3>
+          Hello ,Welcome To My official Website
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Dolorum, est hic laboriosam quasi cum natus ea accusantium 
+          tempora accusamus, adipisci earum autem amet dolorem ad 
+          praesentium consectetur error harum vitae.
+        </p>
+        <button type="button" class="btn btn-outline-secondary">Подробнее</button>
+    </div>
+  </div>
+</header>
+<div id="about" class="about">
+  <h1>About me</h1>
+  <div class="row">
+    <!--left part-->
+    <div class="d-flex flex-column flex-center align-items-center col-lg-4 col-md-4 col-sm-12">
+      <img align="center" src="img/devPhoto.jpg" alt="devPhoto.jpg">
+      <span class="text-justify">Web-Developer</span>
+    </div>
+    <!--right part-->
+    <div class="desc col-lg-8 col-md-8 col-sm-12">
+      <h3><font color="#3AC1EF">Gleb N.</font></h3>
+      <p>
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="portfolio" class="container-fluid portfolio">
+  <h1 class="text-center">Portfolio</h1>
+  <div class="row" style="margin-left: 1em;
+                          margin-right: 1em;"
+  >
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+      <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+        <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6 thumb">
+        <a data-fancybox="gallery" href="img/imgPortfolio.jpg">
+          <img class="img-fluid" src="img/imgPortfolio.jpg" alt="img portfolio">
+        </a>
+    </div>
+
+  </div>
+</div>
+
+<div id="blog" class="container-fluid blog">
+  <h1 class="text-center">Blog</h1>
+    <div class="cards">
+      <div class="wrap col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="img/cardImg.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title
+              and make up the bulk of the card's content.
+            </p>
+            <a href="#!" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="wrap col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="img/cardImg.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title
+                and make up the bulk of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="wrap col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="img/cardImg.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title
+                  and make up the bulk of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img class="card-img-top" src="img/cardImg.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title
+                    and make up the bulk of the card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+    </div>
+</div>
+
+<div id="team" class="container-fluid team">
+  <h1 class="text-center">Our team</h1>
+  <div class="teammates d-flex flex-wrap space-around">
+    <div class="col-lg-3 col-md-4 col-sm-12">
+      <div class="person item" style="padding-left: 5px; padding-right: 5px;">
+        <img align="center" src="img/teammate.jpg" class="img-fluid" alt="teammate">
+        <div class="des">
+          Gleb
+        </div>
+        <span class="text-muted">Front End developer</span>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-12">
+      <div class="person item" style="padding-left: 5px; padding-right: 5px;">
+        <img align="center" src="img/teammate.jpg" class="img-fluid" alt="teammate">
+        <div class="des">
+          SNHRK
+        </div>
+        <span class="text-muted">Pepe</span>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="person item" style="padding-left: 5px; padding-right: 5px;">
+          <img align="center" src="img/teammate.jpg" class="img-fluid" alt="teammate">
+          <div class="des">
+            Kra Ves
+          </div>
+          <span class="text-muted">Loh</span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="person item" style="padding-left: 5px; padding-right: 5px;">
+            <img align="center" src="img/teammate.jpg" class="img-fluid" alt="teammate">
+            <div class="des">
+              Valera
+            </div>
+            <span class="text-muted">Villager</span>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div id="contact-form" class="contact-form" style="margin-top: 4em;">
+    <div class="container">
+     <form>
+      <div class="row">
+       <div class="col-lg-4 col-md-4 col-sm-12">
+         <h1>Get in Touch</h1> 
+       </div>
+       <div class="col-lg-8 col-md-8 col-sm-12 right">
+          <div class="form-group">
+            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control form-control-lg">
+             
+            </textarea>
+          </div>
+          <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+       </div>
+      </div>
+     </form>
+    </div>
+   </div>
+<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>
+
+
+
+
+
